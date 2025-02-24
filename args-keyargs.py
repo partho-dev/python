@@ -16,3 +16,12 @@ def greet(name, *args, **kwargs):
 
 # Calling the function with proper boolean syntax (True instead of true)
 greet("Partho", "t-shirt", "pants", "Jackets", stay="4 days", food=True)
+
+"""
+Output
+
+Hello Partho
+Total clothes: 3
+All args (clothes): ('t-shirt', 'pants', 'Jackets')
+All kwargs (other info): {'stay': '4 days', 'food': True}
+"""

@@ -13,22 +13,43 @@
 # print(f"The index of 'O' in the '{name}' is: {name.find("o")} ")
 
 
+# List
 # fruit = ["apple", "bananna", "Cherry"]
 # print(fruit)
 # fruit.append("orange")
 # print(f"The new list of fruiys are : {fruit}")
 
-
+#Tuple
 # coordinates = (10.0, 20.0, 10.0)
 # print(coordinates.count(10.0))
 # print(f"The position is {coordinates.index(20.0)+1}")
 
 
-# student = {"name": "Partho", "age": 40}
-# print(student.keys())
+
+#Dictionary [CRUD]
+student = {"name": "Partho", "age": 40}
+# READ Operations on Disctionary - R
+# print(student.keys()) 
 # print(student.values())
 # print(student["name"])
+# -> .get() method is same as [] 
+# print(student.get("name")) 
 # # in js console.log(student.name)
+
+#Update Operations on Dictionary - U
+# -> Updating an nexisting record to differennt value
+# student["age"]=45
+# print(student.get("age"))
+
+# Add a new elemennt - C
+# student['dob']= '13Nov'
+# print(student["dob"])
+# print(student)
+
+# Delere Element from the Dictionary [use DEL] - D
+# print(student)
+# del student["age"]
+# print(student)
 
 
 # unique_number = {1, 2, 3, 4} # Set
